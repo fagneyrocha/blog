@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('ola', function(){
 	return 'olá mundo!';
 });
+
+route::get('posts', 'PostsController@index');
